@@ -10128,7 +10128,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="P+2" gate="1" x="190.5" y="213.36" smashed="yes">
 <attribute name="VALUE" x="189.484" y="216.916" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="190.5" y="180.34"/>
+<instance part="GND6" gate="1" x="187.96" y="180.34"/>
 <instance part="P+3" gate="1" x="200.66" y="205.74" smashed="yes">
 <attribute name="VALUE" x="199.644" y="209.296" size="1.778" layer="96"/>
 </instance>
@@ -10196,7 +10196,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <attribute name="VALUE" x="179.324" y="232.156" size="1.778" layer="96"/>
 </instance>
 <instance part="GND12" gate="1" x="154.94" y="208.28"/>
-<instance part="S4" gate="G$1" x="190.5" y="190.5" rot="R90"/>
+<instance part="S4" gate="G$1" x="187.96" y="190.5" rot="R90"/>
 <instance part="PP-MISO" gate="G$1" x="162.56" y="175.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.082" y="174.498" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="177.8" size="1.778" layer="96" rot="R180"/>
@@ -10363,7 +10363,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U1" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="185.42" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="185.42" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="S4" gate="G$1" pin="1"/>
 </segment>
@@ -10655,15 +10655,18 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <net name="RST" class="0">
 <segment>
 <wire x1="190.5" y1="200.66" x2="190.5" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="198.12" x2="190.5" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="198.12" x2="187.96" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="198.12" x2="187.96" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="198.12" x2="203.2" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="198.12" x2="190.5" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="198.12" x2="187.96" y2="198.12" width="0.1524" layer="91"/>
 <junction x="190.5" y="198.12"/>
 <label x="193.04" y="198.12" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="PC6(/RESET)"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="S4" gate="G$1" pin="2"/>
+<junction x="187.96" y="198.12"/>
+<wire x1="187.96" y1="198.12" x2="190.5" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="170.18" x2="165.1" y2="170.18" width="0.1524" layer="91"/>
