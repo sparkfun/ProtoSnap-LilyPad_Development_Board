@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="11" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -2764,8 +2764,8 @@ design rules under a new name.</description>
 <element name="VIBE1" library="LilyPad-Wearables" package="PETAL-NOHOLE-2SIDE" value="SEWTAP-NOHOLE2" x="6.2" y="54.67" rot="R300"/>
 <element name="VIBE-" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="6.2" y="62.17" rot="R240"/>
 <element name="VIBE+" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="19.1987" y="62.1699" rot="R120"/>
-<element name="M1" library="Testing" package="VIBE-MOTOR-10MM-SMD" value="MOTORSMD" x="12.7" y="59.309"/>
-<element name="D3" library="SparkFun" package="SOD-323" value="" x="7.366" y="55.626" rot="R300"/>
+<element name="M1" library="Testing" package="VIBE-MOTOR-10MM-SMD" value="VIBE MOTOR" x="12.7" y="59.309"/>
+<element name="D9" library="SparkFun" package="SOD-323" value="" x="7.366" y="55.626" rot="R300"/>
 <element name="VIBE4" library="LilyPad-Wearables" package="PETAL-NOHOLE-2SIDE" value="SEWTAP-NOHOLE2" x="12.7" y="65.92" rot="R180"/>
 <element name="U$29" library="LilyPad-Wearables" package="LOGO-LILYPAD" value="LOGO-LPLP" x="12.7" y="58.42" rot="MR0"/>
 <element name="R6" library="SparkFun" package="0603-RES" value="33" x="18.2451" y="55.4861" rot="R60"/>
@@ -2805,7 +2805,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED+" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="62.23" y="13.843" rot="R180"/>
 <element name="LED-" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="62.23" y="5.207"/>
-<element name="LED" library="SparkFun-3-2-07" package="LED-1206" value="White" x="62.21" y="10.237" smashed="yes" rot="R180">
+<element name="D2" library="SparkFun-3-2-07" package="LED-1206" value="White" x="62.21" y="10.237" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.38" y="8.567" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="62.983" y="11.58" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2816,7 +2816,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED+1" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="72.39" y="13.843" rot="R180"/>
 <element name="LED-1" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="72.39" y="5.207"/>
-<element name="LED1" library="SparkFun-3-2-07" package="LED-1206" value="White" x="72.37" y="10.237" smashed="yes" rot="R180">
+<element name="D3" library="SparkFun-3-2-07" package="LED-1206" value="White" x="72.37" y="10.237" smashed="yes" rot="R180">
 <attribute name="NAME" x="74.54" y="8.567" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="73.143" y="11.58" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2827,7 +2827,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED+2" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="52.07" y="13.843" rot="R180"/>
 <element name="LED-2" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="52.07" y="5.207"/>
-<element name="LED2" library="SparkFun-3-2-07" package="LED-1206" value="White" x="52.05" y="10.237" smashed="yes" rot="R180">
+<element name="D4" library="SparkFun-3-2-07" package="LED-1206" value="White" x="52.05" y="10.237" smashed="yes" rot="R180">
 <attribute name="NAME" x="54.22" y="8.567" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="52.823" y="11.58" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2838,7 +2838,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED+3" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="41.91" y="13.843" rot="R180"/>
 <element name="LED-3" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="41.91" y="5.207"/>
-<element name="LED3" library="SparkFun-3-2-07" package="LED-1206" value="White" x="41.89" y="10.237" smashed="yes" rot="R180">
+<element name="D5" library="SparkFun-3-2-07" package="LED-1206" value="White" x="41.89" y="10.237" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.06" y="8.567" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="42.663" y="11.58" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2849,7 +2849,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED+4" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="31.75" y="13.843" rot="R180"/>
 <element name="LED-4" library="LilyPad-Wearables" package="PETAL-SMALL-2SIDE" value="SEWTAP6" x="31.75" y="5.207"/>
-<element name="LED4" library="SparkFun-3-2-07" package="LED-1206" value="White" x="31.73" y="10.237" smashed="yes" rot="R180">
+<element name="D6" library="SparkFun-3-2-07" package="LED-1206" value="White" x="31.73" y="10.237" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.9" y="8.567" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="32.503" y="11.58" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2886,7 +2886,7 @@ design rules under a new name.</description>
 <element name="TP-DTR" library="SparkFun" package="PAD.03X.05" value="" x="58.4701" y="56.4901" rot="MR0"/>
 <element name="C9" library="SparkFun" package="0603-CAP" value="4.7uF" x="37.924" y="39.9902" rot="R90"/>
 <element name="C10" library="SparkFun" package="0603-CAP" value="4.7uF" x="36.4701" y="39.9902" rot="R270"/>
-<element name="D4" library="Testing" package="0603-LED-ALT1" value="Yellow" x="45.6321" y="40.0901"/>
+<element name="D7" library="Testing" package="0603-LED-ALT1" value="Yellow" x="45.6321" y="40.0901"/>
 <element name="R12" library="SparkFun" package="0603-RES" value="330" x="44.178" y="39.9901" rot="R270"/>
 <element name="U4" library="SparkFun" package="SOT23-5" value="MCP73831" x="40.324" y="39.9901" rot="R180"/>
 <element name="S4" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-SMD" value="Reset" x="41.0701" y="55.9901" rot="R90"/>
@@ -2933,7 +2933,7 @@ design rules under a new name.</description>
 <element name="U$50" library="Testing" package="LILYPAD-BRD-LAYERS-SMALL" value="" x="12.7" y="58.42"/>
 <element name="U$52" library="SparkFun" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="52.07" y="41.91" rot="MR0"/>
 <element name="TP2" library="SparkFun" package="PAD.03X.05" value="" x="38.735" y="46.99" rot="MR0"/>
-<element name="D5" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="B340A" x="42.418" y="36.449"/>
+<element name="D8" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="B340A" x="42.418" y="36.449"/>
 <element name="S3" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-SMD" value="" x="12.7" y="19.05" rot="R270"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="25.4" y="-8.89"/>
 <element name="U6" library="SparkFun-Sensors" package="ALS-PT19" value="LIGHTSENSOR_ALS-PT19" x="91.44" y="36.83" rot="R90">
@@ -2948,7 +2948,7 @@ design rules under a new name.</description>
 <element name="R21" library="SparkFun-Resistors" package="0603-RES" value="100" x="9.525" y="36.83" rot="R90">
 <attribute name="PROD_ID" value="RES-07863" x="6.985" y="36.83" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="D6" library="SparkFun-LED" package="PLCC-6-LED" value="LED-TRICOLOR" x="12.7" y="36.83" rot="R180">
+<element name="D10" library="SparkFun-LED" package="PLCC-6-LED" value="LED-TRICOLOR" x="12.7" y="36.83" rot="R180">
 <attribute name="PROD_ID" value="DIO-12113" x="17.78" y="40.64" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="U$48" library="Testing" package="MOUSE-BITE-2" value="MOUSE-BITE-2" x="2.3241" y="36.857940625" rot="R270"/>
@@ -2956,7 +2956,7 @@ design rules under a new name.</description>
 <signals>
 <signal name="N$10">
 <contactref element="M1" pad="P$1"/>
-<contactref element="D3" pad="1"/>
+<contactref element="D9" pad="1"/>
 <contactref element="R6" pad="1"/>
 <wire x1="6.791" y1="56.621928125" x2="9.8591" y2="59.69" width="0.4064" layer="1"/>
 <wire x1="9.8591" y1="59.69" x2="13.97" y2="59.69" width="0.4064" layer="1"/>
@@ -2993,7 +2993,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$18">
 <contactref element="R" pad="1"/>
-<contactref element="LED" pad="C"/>
+<contactref element="D2" pad="C"/>
 <wire x1="60.71" y1="9.521" x2="60.71" y2="10.237" width="0.4064" layer="1"/>
 <wire x1="60.71" y1="9.521" x2="61.1505" y2="9.0805" width="0.4064" layer="1"/>
 <wire x1="61.1505" y1="9.0805" x2="61.214" y2="9.017" width="0.254" layer="1"/>
@@ -3001,7 +3001,7 @@ design rules under a new name.</description>
 <wire x1="61.1505" y1="9.0805" x2="61.36" y2="8.871" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="LED" pad="A"/>
+<contactref element="D2" pad="A"/>
 <contactref element="LED+" pad="1"/>
 <wire x1="62.23" y1="13.843" x2="62.23" y2="13.97" width="0.4064" layer="1"/>
 <wire x1="63.71" y1="12.363" x2="63.71" y2="10.237" width="0.4064" layer="1"/>
@@ -3016,7 +3016,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$21">
 <contactref element="R8" pad="1"/>
-<contactref element="LED1" pad="C"/>
+<contactref element="D3" pad="C"/>
 <wire x1="70.87" y1="9.521" x2="70.87" y2="10.237" width="0.4064" layer="1"/>
 <wire x1="70.87" y1="9.521" x2="71.3105" y2="9.0805" width="0.4064" layer="1"/>
 <wire x1="71.3105" y1="9.0805" x2="71.374" y2="9.017" width="0.254" layer="1"/>
@@ -3024,7 +3024,7 @@ design rules under a new name.</description>
 <wire x1="71.3105" y1="9.0805" x2="71.52" y2="8.871" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$22">
-<contactref element="LED1" pad="A"/>
+<contactref element="D3" pad="A"/>
 <contactref element="LED+1" pad="1"/>
 <wire x1="72.39" y1="13.843" x2="72.39" y2="13.97" width="0.4064" layer="1"/>
 <wire x1="73.87" y1="12.363" x2="73.87" y2="10.237" width="0.4064" layer="1"/>
@@ -3039,7 +3039,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$24">
 <contactref element="R9" pad="1"/>
-<contactref element="LED2" pad="C"/>
+<contactref element="D4" pad="C"/>
 <wire x1="50.55" y1="9.521" x2="50.55" y2="10.237" width="0.4064" layer="1"/>
 <wire x1="50.55" y1="9.521" x2="50.9905" y2="9.0805" width="0.4064" layer="1"/>
 <wire x1="50.9905" y1="9.0805" x2="51.054" y2="9.017" width="0.254" layer="1"/>
@@ -3047,7 +3047,7 @@ design rules under a new name.</description>
 <wire x1="50.9905" y1="9.0805" x2="51.2" y2="8.871" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="LED2" pad="A"/>
+<contactref element="D4" pad="A"/>
 <contactref element="LED+2" pad="1"/>
 <wire x1="52.07" y1="13.843" x2="52.07" y2="13.97" width="0.4064" layer="1"/>
 <wire x1="53.55" y1="12.363" x2="53.55" y2="10.237" width="0.4064" layer="1"/>
@@ -3062,7 +3062,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$27">
 <contactref element="R10" pad="1"/>
-<contactref element="LED3" pad="C"/>
+<contactref element="D5" pad="C"/>
 <wire x1="40.39" y1="9.521" x2="40.39" y2="10.237" width="0.4064" layer="1"/>
 <wire x1="40.39" y1="9.521" x2="40.8305" y2="9.0805" width="0.4064" layer="1"/>
 <wire x1="40.8305" y1="9.0805" x2="40.894" y2="9.017" width="0.254" layer="1"/>
@@ -3070,7 +3070,7 @@ design rules under a new name.</description>
 <wire x1="40.8305" y1="9.0805" x2="41.04" y2="8.871" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$28">
-<contactref element="LED3" pad="A"/>
+<contactref element="D5" pad="A"/>
 <contactref element="LED+3" pad="1"/>
 <wire x1="41.91" y1="13.843" x2="41.91" y2="13.97" width="0.4064" layer="1"/>
 <wire x1="43.39" y1="12.363" x2="43.39" y2="10.237" width="0.4064" layer="1"/>
@@ -3085,7 +3085,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$30">
 <contactref element="R11" pad="1"/>
-<contactref element="LED4" pad="C"/>
+<contactref element="D6" pad="C"/>
 <wire x1="30.23" y1="9.521" x2="30.23" y2="10.237" width="0.4064" layer="1"/>
 <wire x1="30.23" y1="9.521" x2="30.6705" y2="9.0805" width="0.4064" layer="1"/>
 <wire x1="30.6705" y1="9.0805" x2="30.734" y2="9.017" width="0.254" layer="1"/>
@@ -3093,7 +3093,7 @@ design rules under a new name.</description>
 <wire x1="30.6705" y1="9.0805" x2="30.88" y2="8.871" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$31">
-<contactref element="LED4" pad="A"/>
+<contactref element="D6" pad="A"/>
 <contactref element="LED+4" pad="1"/>
 <wire x1="31.75" y1="13.843" x2="31.75" y2="13.97" width="0.4064" layer="1"/>
 <wire x1="33.23" y1="12.363" x2="33.23" y2="10.237" width="0.4064" layer="1"/>
@@ -3133,7 +3133,7 @@ design rules under a new name.</description>
 <contactref element="C5" pad="2"/>
 <contactref element="U$5" pad="P$2"/>
 <contactref element="M1" pad="P$2"/>
-<contactref element="D3" pad="2"/>
+<contactref element="D9" pad="2"/>
 <contactref element="VIBE-" pad="1"/>
 <contactref element="U$42" pad="P$1"/>
 <contactref element="BUTTON-" pad="1"/>
@@ -3615,7 +3615,7 @@ design rules under a new name.</description>
 <via x="48.7833" y="18.7732" extent="1-16" drill="0.508"/>
 <via x="51.562" y="28.702" extent="1-16" drill="0.508"/>
 <via x="26.4465" y="28.4709" extent="1-16" drill="0.508"/>
-<contactref element="D6" pad="AG"/>
+<contactref element="D10" pad="AG"/>
 <contactref element="U$23" pad="1"/>
 <contactref element="U$20" pad="P$2"/>
 <wire x1="23.0124" y1="36.3347" x2="23.4061" y2="36.3347" width="0.2032" layer="16"/>
@@ -3744,7 +3744,7 @@ design rules under a new name.</description>
 <wire x1="33.8633" y1="19.3319" x2="46.6319" y2="19.3319" width="0.2032" layer="16"/>
 <wire x1="28.0467" y1="25.0469" x2="33.8633" y2="19.3319" width="0.2032" layer="16"/>
 <via x="52.07" y="44.2901" extent="1-16" drill="0.508"/>
-<contactref element="D6" pad="AR"/>
+<contactref element="D10" pad="AR"/>
 <contactref element="U$22" pad="1"/>
 <contactref element="U$20" pad="P$4"/>
 <wire x1="23.0124" y1="38.0111" x2="24.2189" y2="38.0111" width="0.2032" layer="16"/>
@@ -3851,7 +3851,7 @@ design rules under a new name.</description>
 <wire x1="33.1724" y1="18.8976" x2="46.1314" y2="18.8976" width="0.2032" layer="16"/>
 <wire x1="27.5971" y1="24.4729" x2="33.1724" y2="18.8976" width="0.2032" layer="16"/>
 <via x="55.88" y="30.48" extent="1-16" drill="0.508"/>
-<contactref element="D6" pad="AB"/>
+<contactref element="D10" pad="AB"/>
 <contactref element="U$24" pad="1"/>
 <contactref element="U$20" pad="P$3"/>
 <wire x1="23.0124" y1="37.1729" x2="23.6855" y2="37.1729" width="0.2032" layer="16"/>
@@ -3901,7 +3901,7 @@ design rules under a new name.</description>
 <wire x1="44.0508" y1="42.4362" x2="43.3241" y2="42.4362" width="0.254" layer="1"/>
 <wire x1="49.57" y1="41.1151" x2="47.272" y2="41.1151" width="0.254" layer="1"/>
 <wire x1="47.272" y1="41.1151" x2="46.67" y2="41.8441" width="0.254" layer="1"/>
-<contactref element="D5" pad="A"/>
+<contactref element="D8" pad="A"/>
 <via x="38.6588" y="36.703" extent="1-16" drill="0.508"/>
 <via x="39.374046875" y="43.4848" extent="1-16" drill="0.508"/>
 <wire x1="39.374046875" y1="43.4848" x2="39.374046875" y2="42.436153125" width="0.254" layer="1"/>
@@ -3912,7 +3912,7 @@ design rules under a new name.</description>
 <wire x1="40.014" y1="36.703" x2="38.6588" y2="36.703" width="0.254" layer="1"/>
 </signal>
 <signal name="N$33">
-<contactref element="D4" pad="C"/>
+<contactref element="D7" pad="C"/>
 <contactref element="R12" pad="2"/>
 <wire x1="44.178" y1="39.1401" x2="45.6321" y2="40.5942" width="0.254" layer="1"/>
 <wire x1="45.6321" y1="40.5942" x2="45.6321" y2="40.9671" width="0.254" layer="1"/>
@@ -3923,7 +3923,7 @@ design rules under a new name.</description>
 <contactref element="S1" pad="3"/>
 <contactref element="C9" pad="1"/>
 <contactref element="U4" pad="4"/>
-<contactref element="D4" pad="A"/>
+<contactref element="D7" pad="A"/>
 <contactref element="TP1" pad="P$1"/>
 <wire x1="54.5701" y1="36.9901" x2="54.57" y2="41.1151" width="0.254" layer="1"/>
 <wire x1="54.5701" y1="36.9901" x2="54.57" y2="35.4651" width="0.254" layer="1"/>
@@ -3944,7 +3944,7 @@ design rules under a new name.</description>
 <via x="47.0766" y="37.0156" extent="1-16" drill="0.508"/>
 <wire x1="37.924" y1="39.1402" x2="38.9238" y2="39.1402" width="0.254" layer="1"/>
 <wire x1="38.9238" y1="39.1402" x2="39.374" y2="38.69" width="0.254" layer="1"/>
-<contactref element="D5" pad="C"/>
+<contactref element="D8" pad="C"/>
 <wire x1="39.374" y1="38.69" x2="39.374" y2="38.0452" width="0.254" layer="1"/>
 <wire x1="39.374" y1="38.0452" x2="39.7002" y2="37.719" width="0.254" layer="1"/>
 <wire x1="39.7002" y1="37.719" x2="41.3258" y2="37.719" width="0.254" layer="1"/>
@@ -4433,7 +4433,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="BLUE">
 <contactref element="R17" pad="2"/>
-<contactref element="D6" pad="CB"/>
+<contactref element="D10" pad="CB"/>
 <wire x1="13.8" y1="38.305" x2="13.8" y2="39.708" width="0.3048" layer="1"/>
 <wire x1="13.8" y1="39.708" x2="14.224" y2="40.132" width="0.3048" layer="1"/>
 <via x="14.224" y="40.132" extent="1-16" drill="0.508"/>
@@ -4447,7 +4447,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="GRN1">
 <contactref element="R21" pad="2"/>
-<contactref element="D6" pad="CG"/>
+<contactref element="D10" pad="CG"/>
 <wire x1="11.6" y1="38.305" x2="11.6" y2="39.327" width="0.3048" layer="1"/>
 <wire x1="11.6" y1="39.327" x2="11.176" y2="39.751" width="0.3048" layer="1"/>
 <wire x1="11.176" y1="39.751" x2="9.906" y2="39.751" width="0.3048" layer="1"/>
@@ -4455,7 +4455,7 @@ design rules under a new name.</description>
 <wire x1="9.525" y1="39.37" x2="9.525" y2="37.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="RED1">
-<contactref element="D6" pad="CR"/>
+<contactref element="D10" pad="CR"/>
 <contactref element="R19" pad="2"/>
 <wire x1="15.836" y1="39.624" x2="15.875" y2="39.585" width="0.3048" layer="1"/>
 <wire x1="12.7" y1="38.305" x2="12.7" y2="40.513" width="0.3048" layer="1"/>
