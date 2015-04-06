@@ -11534,20 +11534,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 </nets>
 </sheet>
-<sheet>
-<plain>
-<text x="2.54" y="27.94" size="1.778" layer="94">-Changes to v32 (9/26/2011)</text>
-<text x="7.62" y="25.4" size="1.778" layer="94">-Fixed Silk error on RGB LED</text>
-<text x="7.62" y="22.86" size="1.778" layer="94">-Swapped silk for LEDs (A3 and A4 were backwards)</text>
-<text x="7.62" y="20.32" size="1.778" layer="94">-Changed Buzzer from D12/D7 to GND/D7, for easier buzzing.</text>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
 </sheets>
 </schematic>
 </drawing>
