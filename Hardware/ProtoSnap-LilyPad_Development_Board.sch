@@ -8689,6 +8689,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.2" y1="0" x2="1.2" y2="-1.016" width="0.254" layer="1"/>
 <wire x1="0" y1="0" x2="0" y2="1.016" width="0.254" layer="1"/>
 <wire x1="0" y1="0" x2="0" y2="-1.016" width="0.254" layer="1"/>
+<rectangle x1="-1.7018" y1="-0.7112" x2="-1.5748" y2="0.7112" layer="41"/>
+<rectangle x1="-0.6604" y1="-0.7112" x2="-0.5334" y2="0.7112" layer="41"/>
+<rectangle x1="0.508" y1="-0.7112" x2="0.635" y2="0.7112" layer="41"/>
+<rectangle x1="1.5748" y1="-0.7112" x2="1.7018" y2="0.7112" layer="41"/>
 </package>
 <package name="RESONATOR-PTH">
 <wire x1="-2.286" y1="1.778" x2="-2.286" y2="-1.778" width="0.2032" layer="21" curve="162.403081"/>
@@ -8698,6 +8702,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="2" x="0" y="0" drill="0.8" diameter="1.8796"/>
 <pad name="1" x="-2.54" y="0" drill="0.8" diameter="1.8796"/>
 <pad name="3" x="2.54" y="0" drill="0.8" diameter="1.8796"/>
+</package>
+<package name="RESONATOR-SMD_MED">
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.2032" layer="21"/>
+<text x="-2" y="1.5" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2" y="-1.9" size="0.4064" layer="27">&gt;Value</text>
+<smd name="1" x="-1.5" y="0" dx="0.4" dy="1.6" layer="1"/>
+<smd name="2" x="0" y="0" dx="0.4" dy="1.6" layer="1"/>
+<smd name="3" x="1.5" y="0" dx="0.4" dy="1.6" layer="1"/>
+<rectangle x1="-0.4" y1="0.8" x2="0.4" y2="1.3" layer="1"/>
+<rectangle x1="-0.4" y1="-1.3" x2="0.4" y2="-0.8" layer="1"/>
+<rectangle x1="-1.9" y1="0.8" x2="-1.1" y2="1.3" layer="1"/>
+<rectangle x1="-1.9" y1="-1.3" x2="-1.1" y2="-0.8" layer="1"/>
+<rectangle x1="1.1" y1="0.8" x2="1.9" y2="1.3" layer="1"/>
+<rectangle x1="1.1" y1="-1.3" x2="1.9" y2="-0.8" layer="1"/>
+<rectangle x1="-2" y1="0.7" x2="-1" y2="1.4" layer="29"/>
+<rectangle x1="-0.5" y1="0.7" x2="0.5" y2="1.4" layer="29"/>
+<rectangle x1="1" y1="0.7" x2="2" y2="1.4" layer="29"/>
+<rectangle x1="1" y1="-1.4" x2="2" y2="-0.7" layer="29"/>
+<rectangle x1="-0.5" y1="-1.4" x2="0.5" y2="-0.7" layer="29"/>
+<rectangle x1="-2" y1="-1.4" x2="-1" y2="-0.7" layer="29"/>
+<wire x1="-2.1" y1="1" x2="-2.25" y2="1" width="0.2032" layer="21"/>
+<wire x1="-2.1" y1="-1" x2="-2.25" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-1" x2="2.25" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="1" x2="2.1" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.25" y1="-1" x2="2.1" y2="-1" width="0.2032" layer="21"/>
+<rectangle x1="-1.9" y1="0.8" x2="-1.1" y2="1.3" layer="31"/>
+<rectangle x1="-0.4" y1="0.8" x2="0.4" y2="1.3" layer="31"/>
+<rectangle x1="1.1" y1="0.8" x2="1.9" y2="1.3" layer="31"/>
+<rectangle x1="-1.9" y1="-1.3" x2="-1.1" y2="-0.8" layer="31"/>
+<rectangle x1="-0.4" y1="-1.3" x2="0.4" y2="-0.8" layer="31"/>
+<rectangle x1="1.1" y1="-1.3" x2="1.9" y2="-0.8" layer="31"/>
+<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1" x2="2.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -8732,6 +8771,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
+<circle x="-2.54" y="0" radius="0.508" width="0" layer="94"/>
+<circle x="2.54" y="0" radius="0.508" width="0" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8778,6 +8819,19 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <technology name="">
 <attribute name="PROD_ID" value="XTAL-08900"/>
 <attribute name="VALUE" value="16MHZ"/>
+</technology>
+</technologies>
+</device>
+<device name="4MHZ" package="RESONATOR-SMD_MED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="XTAL-12492"/>
+<attribute name="VALUE" value="4MHz"/>
 </technology>
 </technologies>
 </device>
@@ -9644,7 +9698,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="P+7" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="8MHZ" value="8MHz"/>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="8MHZ" value="8MHZ"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP2" library="SparkFun" deviceset="ARDUINO_SERIAL_PROGRAM" device="SMD"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
