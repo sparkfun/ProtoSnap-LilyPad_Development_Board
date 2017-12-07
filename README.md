@@ -13,7 +13,7 @@ Repository Contents
 
 Documentation
 -------------------
-*[Hookup Guide](https://www.sparkfun.com/tutorials/308) - Basic hookup guide for the LilyPad Development Board.
+* [Hookup Guide](https://www.sparkfun.com/tutorials/308) - Basic hookup guide for the LilyPad Development Board.
 
 Product Versions
 ----------------
