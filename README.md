@@ -10,6 +10,10 @@ Repository Contents
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 
+Documentation
+-------------------
+*[Hookup Guide](https://www.sparkfun.com/tutorials/308) - Basic hookup guide for the LilyPad Development Board.
+
 Product Versions
 ----------------
 * [DEV-11262](https://www.sparkfun.com/products/11262)- This is the standard ProtoSnap LilyPad Development Board
