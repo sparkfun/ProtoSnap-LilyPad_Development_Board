@@ -13,7 +13,7 @@ Repository Contents
 Product Versions
 ----------------
 * [DEV-11262](https://www.sparkfun.com/products/11262)- This is the standard ProtoSnap LilyPad Development Board
-* [RTL-11261] (https://www.sparkfun.com/products/11261)- Retail version of the ProtoSnap LilyPad Development Board. 
+* [RTL-11261](https://www.sparkfun.com/products/11261)- Retail version of the ProtoSnap LilyPad Development Board. 
 
 License Information
 -------------------
