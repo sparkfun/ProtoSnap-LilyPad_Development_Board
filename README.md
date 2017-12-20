@@ -9,6 +9,7 @@ The ProtoSnap LilyPad Development Board allows you to start prototyping in the w
 
 Repository Contents
 -------------------
+* **/Firmware** - LilyPad development board's default Arduino example code.
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 
 Documentation
