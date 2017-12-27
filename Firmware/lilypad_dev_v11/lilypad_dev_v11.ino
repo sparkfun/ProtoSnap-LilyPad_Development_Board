@@ -54,12 +54,10 @@ void setup()
   ////////////////////////////////////////////
 
   //Switch
-  pinMode(switchPin, INPUT);  // set the switch as an input
-  digitalWrite(switchPin, HIGH);  // enable the pull-up resistor
+  pinMode(switchPin, INPUT_PULLUP);  // set the switch as an input and use internal pullup resistors
 
   //Button
-  pinMode(buttonPin, INPUT);  // set the pin as an input
-  digitalWrite(buttonPin, HIGH);  // enable the pull-up resistor
+  pinMode(buttonPin, INPUT_PULLUP);  // set the pin as an input and use internal pullup resistors
 
   //VIBE
   pinMode(vibePin, OUTPUT);  // set the pin as an output
@@ -131,8 +129,3 @@ void loop()
     Serial.println(analogRead(lightSensorPin)); 
   }
 }
-
-
-
-
-
